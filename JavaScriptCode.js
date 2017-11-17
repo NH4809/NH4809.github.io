@@ -1,3 +1,3 @@
 <script>
-  alert('This is a JavaScript pop-up alert')
+  alert('Testing a JavaScript pop-up alert')
 </script>
