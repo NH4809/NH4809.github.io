@@ -1,3 +1,3 @@
 function popup() {
-  alert('Testing a JavaScript pop-up alert')
+  alert('This pop-up has absolutely no purpose!')
 }
