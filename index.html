@@ -8,13 +8,13 @@
   </head>
   <body bgcolor='cyan'>
 
-    <h1>Bob's NH4809 Web Site</h1>
+    <h1>Bob's NH4809 Web Site - some changes to input fields</h1>
 
     <br>
     <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KNHPLYMO6#history" target="_blank">Garry's Weather Station</a>
 
     <form><pre>
-      Input type: text <input type="text" name="f1" size="26"/>
+      Input type: text <input type="text" name="f1" size="26" maxlength="12"/>
       Input type: password <input type="password" name="f2" size="26"/>
       Input type: radio <input type="radio" name="f3" value="1"/>
       Input type: radio <input type="radio" name="f3" value="2"/>
@@ -24,7 +24,7 @@
       Textarea: <textarea name="f6" rows="3" cols="20"></textarea>
       Select: <select name="f7">
         <option value="1">First option</option>
-        <option value="2">Second option</option>
+        <option value="2" selected = 'selected'>Second option</option>
         <option value="3">Third option</option>
       Button: <button name="f8" value="f8">Button</button>
       Label: <label>
