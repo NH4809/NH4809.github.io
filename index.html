@@ -8,7 +8,7 @@
   </head>
   <body bgcolor='cyan'>
 
-    <h1>Bob's NH4809 Web Site - fixed canvas block</h1>
+    <h1>Bob's NH4809 Web Site - added script</h1>
 
     <br>
     <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KNHPLYMO6#history" target="_blank">Garry's Weather Station</a>
@@ -42,6 +42,13 @@
     <canvas id="canvas1" width="400" height="300">
       This web page uses the HTML5 canvas element
     </canvas>
+
+    <script>
+      canvas = document.getElementByID('canvas1')
+      canvas.style.background = '#DDD'
+      context = canvas.getContext('2d')
+      context.fillRect(150, 100, 100, 100)
+    </script>
 
 <!--
     <br align='left'>Moosilaukee summit in winter
