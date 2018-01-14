@@ -8,7 +8,7 @@
   </head>
   <body bgcolor='cyan'>
 
-    <h1>Bob's NH4809 Web Site - capitalized Document</h1>
+    <h1>Bob's NH4809 Web Site - fixed getElementById</h1>
 
     <br>
     <a href="https://www.wunderground.com/personal-weather-station/dashboard?ID=KNHPLYMO6#history" target="_blank">Garry's Weather Station</a>
@@ -44,7 +44,7 @@
     </canvas>
 
     <script>
-      canvas = Document.getElementByID('canvas1')
+      canvas = document.getElementById('canvas1')
       canvas.style.background = '#DDD'
       context = canvas.getContext('2d')
       context.fillRect(150, 100, 100, 100)
